@@ -12,4 +12,20 @@ Start and stop ec2 instances with slack
 
 ## use
 
-<img width="758" alt="スクリーンショット_2019-04-26_9_57_47" src="https://user-images.githubusercontent.com/5633085/56776981-071fd880-680a-11e9-91e2-8316471ff6b6.png">
+<img width="775" alt="スクリーンショット_2019-05-20_9_30_34" src="https://user-images.githubusercontent.com/5633085/57990540-812e3f00-7ae2-11e9-97ea-57882e4ab007.png">
+
+- status
+
+```
+/ec2 dev1 status
+```
+- start
+
+```
+/ec2 dev1 start
+```
+- stop
+
+```
+/ec2 dev1 stop
+```
