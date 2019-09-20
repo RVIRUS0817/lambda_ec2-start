@@ -119,4 +119,4 @@ exports.handler = (event, context, callback) => {
     } else {
         callback(null, getErrorResponse('Unknown parameters'));
     }
-};<Paste>
+};
