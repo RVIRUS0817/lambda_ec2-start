@@ -1,31 +1,34 @@
-# ec2_start-stop
+# lambda_ec2-start
 
 Start and stop ec2 instances with slack
 
 ## Environment
 
-- Slack
+- Terraform
+  - Api Gateway(GET)
+  - Lambda (node14)
 - EC2
-- Api Gateway
-- Lambda (node8.10)
+- Slack
 - Slash command
 
-## use
+## Use slack
 
-<img width="775" alt="スクリーンショット_2019-05-20_9_30_34" src="https://user-images.githubusercontent.com/5633085/57990540-812e3f00-7ae2-11e9-97ea-57882e4ab007.png">
+- Specify the instance id in jndex.js.
+
+![スクリーンショット 2021-05-20 10 45 46](https://user-images.githubusercontent.com/5633085/118906535-eb3f8000-b958-11eb-8987-d8780ec4282d.jpg)
 
 - status
 
 ```
-/ec2 dev1 status
+/ec2 hoge status
 ```
 - start
 
 ```
-/ec2 dev1 start
+/ec2 hoge start
 ```
 - stop
 
 ```
-/ec2 dev1 stop
+/ec2 hoge stop
 ```

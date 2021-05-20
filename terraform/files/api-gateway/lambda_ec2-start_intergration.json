@@ -1,0 +1,4 @@
+{
+  "token": "$input.params('token')",
+  "text": "$input.params('text')"
+}

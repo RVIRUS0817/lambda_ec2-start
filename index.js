@@ -93,7 +93,7 @@ function getErrorResponse(message) {
     };
 }
 
-# インスタンスIDの指定
+// インスタンスIDの指定
 exports.handler = (event, context, callback) => {
     if (!event.token || event.token !== process.env.SLASH_COMMAND_TOKEN)
         callback(null, getErrorResponse('Invalid token'));
@@ -102,11 +102,11 @@ exports.handler = (event, context, callback) => {
 
     var target = event.text.split(' ')[0];
     switch (target) {
-        case 'dev1':
-            targetId = 'i-xxxxxxxxxxxx';
+        case 'hoge1':
+            targetId = 'i-hoge';
             break;
-        case 'dev2':
-            targetId = 'i-xxxxxxxxxxxx';
+        case 'hoge2':
+            targetId = 'i-hoge';
             break;
     }
     
